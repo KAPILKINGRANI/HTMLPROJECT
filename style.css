@@ -1,0 +1,55 @@
+h1,p{
+    color:blue;font-size:25px;
+}/*COMBINED SELECTOR*/
+
+h4{
+    color:brown;
+}/*TYPE SELECTOR*/
+
+.bgbrown{
+    background-color: brown;
+}
+
+
+
+a[href="https://www.w3schools.com/c/"]{
+    color:blueviolet;
+}/*ATTRIBUTE SELECTOR*/
+
+a:hover{
+    color:black;
+}/*PSEUDO CLASS SELECTOR,TEXT DECORATION PENDING*/
+
+p::first line{
+    color:brown;
+}/*PSEUDO ELEMENT SELECTOR*/
+
+footer>h4{
+   color:green;
+   font-size:30;
+   /*padding-block: 50px;*/
+}/*COMBINATOR SELECTOR*/
+ 
+ 
+*{
+    background-color:powderblue;
+}UNIVERSAL SELECTOR 
+
+
+/*we can use color property using #ffff , rgb*/
+
+/*{
+    background-image:url("https://i.pinimg.com/originals/16/0e/30/160e30439a507e50a0e87eb526af8a57.jpg");
+    background-repeat: no-repeat;
+    background-size: 100;
+    height:500;
+    width:500;
+    background-position:center;
+    background-attachment: fixed;
+}*/
+
+/*font*/
+
+div{
+    color: pink;
+}
